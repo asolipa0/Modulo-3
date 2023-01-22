@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Introdução à rede</title>
+<link rel="icon" type="image/x-icon" href="./img/Logo.png"/>
+</head>
+<body>
+    <img src="./img/EPF.png" height="200" width="400"></img>
+    <body topmargin=50 leftmargin=200 rightmargin="200"></body>
+    <style>
+        body {
+            padding: 25px;
+            background-color: white;
+            color: rgb(255, 255, 255);
+            font-size: 25px;
+        }
+        .dark-mode {
+            background-color: black;
+            color: rgb(255, 0, 0);
+        }
+        .light-mode {
+            background-color: white;
+            color: rgb(255, 255, 255);
+        }
+        #backButton {
+            background-color: #bbbbbb; /* Green */
+            border:none;
+            color: rgb(26, 23, 23);
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        </style>
+        </head>
+            <h3 id="DarkModetext"></h3>
+            <button onclick="darkMode()">Darkmode</button>
+            <button id="backButton"> <a href="./index.html" >Voltar ao Menu</a></button>
+            <button onclick="lightMode()">LightMode</button>
+            <script>
+            function darkMode() {
+                var element = document.body;
+                var content = document.getElementById("DarkModetext");
+                element.className = "dark-mode";
+                content.innerText = "";
+            }
+            function lightMode() {
+                var element = document.body;
+                var content = document.getElementById("DarkModetext");
+                element.className = "light-mode";
+                content.innerText = "";
+            }
+            </script>
+<h1>Introdução à rede</h1>
+        <h3>Rede de computadores refere-se a dispositivos de computação interconectados que podem trocar dados e compartilhar recursos entre si. Esses dispositivos em rede usam um sistema de regras, chamados protocolos de comunicação, para transmitir informações por meio de tecnologias físicas ou sem fio. As soluções de rede modernas oferecem mais do que conectividade. Eles são críticos para a transformação digital e o sucesso das empresas hoje.</h3>
+        <h3>A Amazon Virtual Private Cloud (Amazon VPC) é um serviço que você pode usar para provisionar uma seção logicamente isolada da Nuvem AWS. Esta seção (chamada de nuvem privada virtual ou VPC) é onde você pode iniciar seus recursos da Amazon Web Services (AWS). Com o Amazon VPC, você tem controle sobre seus recursos de rede virtual. Esses recursos incluem a seleção de seu próprio intervalo de endereços IP, a criação de sub-redes e a configuração de tabelas de rotas e gateways de rede.</h3>
+        <h3>Neste curso, você adquire o conhecimento necessário para começar a usar a Amazon VPC. Você aprende sobre os principais elementos da Amazon VPC e explora como configurá-los. Você aprenderá a configurar a segurança para VPCs e conhecerá outros serviços de rede da AWS.</h3>
+    <h2>Nível do curso </h2>
+        <h3>Este curso de nível básico foi escrito para alunos que estão começando com computação em nuvem e serviços da AWS. Ao iniciar este curso, você não precisa ter um conhecimento profundo de computação em nuvem. Se você tiver mais conhecimento de computação em nuvem, ainda poderá achar este curso útil para atualizar seu conhecimento e praticar suas habilidades. </h3>
+        <h3>Será útil para o seu aprendizado se você tiver uma compreensão básica dos conceitos de computação em nuvem e do AWS Management Console. O AWS Educate oferece suporte a esse histórico com os seguintes cursos:</h3>
+            <h3><li>Introdução ao Console de gerenciamento da AWS</li></h3>
+            <h3><li>Introdução à Nuvem 101</li></h3>
+    <h2>Objetivos</h2>
+        <h3>Ao final deste curso, você será capaz de fazer o seguinte:</h3>
+            <h3><li>Descrever conceitos fundamentais de rede.</li></h3>
+            <h3><li>Explique os recursos, benefícios e casos de uso da Amazon VPC</li></h3>
+            <h3><li>Discuta como configurar sub-redes públicas e privadas.</li></h3>
+            <h3><li>Discuta como configurar tabelas de rotas para direcionar o tráfego em sua rede</li></h3>
+            <h3><li>Descreva como usar um gateway de Internet e um gateway privado virtual para permitir o tráfego em sua rede.</li></h3>
+            <h3><li>Discuta como configurar a segurança em uma VPC usando listas de controle de acesso à rede (network ACLs) e grupos de segurança.</li></h3>
+            <h3><li>Descrever os tipos de endereçamento IP, incluindo uso e benefícios.</li></h3>
+            <h3><li>Identifique maneiras de gerenciar sua VPC.</li></h3>
+    <h2>Layout do curso</h2>
+        <h3>Este curso é individualizado e você pode fazer quantas sessões quiser. Você pode parar e voltar a qualquer momento. O curso irá manter o seu progresso. </h3>
+        <h3>O curso é organizado em três seções.  </h3>
+            <h3>1. A primeira seção é o módulo de conteúdo, onde você aprenderá conhecimentos e habilidades relacionadas ao conteúdo. Você deve esperar gastar cerca de 60 minutos no conteúdo.</h3>
+            <h3>2. A segunda seção é o laboratório prático, onde você praticará suas novas habilidades. O laboratório está alinhado ao conteúdo e, depois de concluir o módulo de conteúdo, você deve saber tudo o que precisa saber para concluir o laboratório. Preste atenção especial às instruções do laboratório. Você deve gastar cerca de 60 minutos completando o laboratório. </h3>
+            <h3>3. A terceira seção é a avaliação final. Você deve passar na avaliação final com uma pontuação de 70% ou mais para concluir o curso e ganhar um selo. Você deve esperar gastar cerca de 20 minutos completando a avaliação final. </h3>
+<h1>informação adicional</h1>
+    <h2>Caminho de aprendizagem de introdução</h2>
+        <h3>Este curso faz parte de uma série de cursos projetados para fornecer uma base sólida em computação em nuvem. Cada curso se concentra em um domínio específico da computação em nuvem</h3>
+        <h3>Embora você possa fazer qualquer um dos cursos a qualquer momento, a seguinte é a ordem sugerida:</h3>
+            <h3>1. Introdução ao armazenamento</h3>
+            <h3>2. Introdução à computação</h3>
+            <h3>3. Introdução à rede </h3>
+            <h3>4. Introdução aos bancos de dados – Em breve!</h3>
+            <h3>5. Introdução às operações na nuvem – em breve!</h3>
+            <h3>6. Introdução à segurança – em breve!</h3>
+            <h3>7. Introdução ao Serverless – Em breve!</h3>
+    <h2>Como obter ajuda</h2>
+        <h3>Se precisar de ajuda quando estiver fazendo um curso, você pode obter ajuda no painel no lado esquerdo da página do Canvas. O ícone Ajuda direcionará você para uma página que inclui material útil sobre cursos e distintivos, perguntas frequentes e um link para solicitações de suporte. </h3>
+<body background="./img/Banner.png"></body>
+</body>
+</html>
